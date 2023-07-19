@@ -1,4 +1,4 @@
-## Lab 6 - Miguel Reyes Hello
+## Lab 6 - Miguel Reyes Hello hi
 
 def encode(string):
     new = ''
