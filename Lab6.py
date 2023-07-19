@@ -17,9 +17,7 @@ def encode(string):
             new = new + str(0)
     return new
 
-
-if __name__ == '__main__':
-
+def main():
     while True:
 
         print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit\n") ## Displays option menu
