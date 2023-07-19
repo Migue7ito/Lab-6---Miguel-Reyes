@@ -37,4 +37,5 @@ def main():
         elif option == 3:
             break
 
-print(main())
+if __name__ == '__main__':
+    main()
