@@ -1,11 +1,11 @@
-## Lab 6
+## Lab 6 - Miguel Reyes
 
 def encode(string):
     new = ''
 
     for num in string:
 
-        if (int(num) + 3) <= 9:  ## checks if current num in encode string when added 3 is less than or equal to 9
+        if (int(num) + 3) <= 9:  ## checks if the current num in encode string when added 3 is less than or equal to 9
 
             new = new + str((int(num) + 3))
 
