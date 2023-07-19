@@ -37,3 +37,4 @@ def main():
         elif option == 3:
             break
 
+print(main())
