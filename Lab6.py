@@ -26,13 +26,13 @@ def main():
 
         if option == 1:
 
-            encode_val = input("Please enter your password to encode: ")  ## prompts user for encode input
+            password = input("Please enter your password to encode: ")  ## prompts user for encode input
 
             print("Your password has been encoded and stored!\n")
 
         elif option == 2:
 
-            print(f"The encoded password is {encode(encode_val)}, and the original password is {encode_val}.\n")
+            print(f"The encoded password is {encode(password)}, and the original password is {password}.\n")
 
         elif option == 3:
             break
