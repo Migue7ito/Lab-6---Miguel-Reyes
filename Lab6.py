@@ -17,6 +17,16 @@ def encode(string):
             new = new + str(0)
     return new
 
+def decode(decoded_password):
+    new = ""
+    for num in new:
+        # Shifting each digit down by 3 numbers to get the original digit
+        original_num = (int(num) - 3) % 10
+        decoded_password += str(original_num)
+    return decoded_password
+
+    
+
 def main():
     while True:
 
@@ -32,7 +42,9 @@ def main():
 
         elif option == 2:
 
-            print(f"The encoded password is {encode(password)}, and the original password is {password}.\n")
+            decoded_password = decode(new)
+
+            print(f"The encoded password is" , ecoded_password, "and the original password is", password.\n")
 
         elif option == 3:
             break
