@@ -40,11 +40,8 @@ def main():
 
             print("Your password has been encoded and stored!\n")
 
-        elif option == 2:
-
-            decoded_password = decode(new)
-
-            print(f"The encoded password is" , ecoded_password, "and the original password is", password.\n")
+        elif option == 2
+            print(f"The encoded password is" , encode(password), "and the decoded password is", decode(password).\n")
 
         elif option == 3:
             break
